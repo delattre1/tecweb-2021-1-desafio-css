@@ -5,7 +5,7 @@ Grupo:
 - DANIEL COSTA DELATTRE
 - GABRIEL MITELMAN TKACZ
 - RAFAEL SEICALI MALCERVELLI
-- Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://toshikurauchi.github.io/tecweb-2021-1-desafio-css/)
+- Link do GitHub Pages: https://github.com/delattre1/tecweb-2021-1-desafio-css
 
 ## Desafio CSS
 
