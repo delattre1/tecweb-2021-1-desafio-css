@@ -28,7 +28,7 @@ body {
 }
 
 .appbar {
-	background-color: #e4fc2b;	
+	background-color: #f7d736;	
 	display: flex;
 	flex-direction: row;
 	align-content: center;
@@ -47,9 +47,30 @@ body {
 form {
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	width: 33%;
 	margin: auto;
+  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.6);
+  margin-bottom: 1.5rem;
+  border-radius: 0.35rem;
+}
+
+
+.form-card-title {
+  font-size: 1.5rem;
+  font-weight: 550;
+  border: none;
+  margin: 0.75rem;
+}
+
+.autoresize {
+  font-size: auto;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  margin-top: 0.75rem;
+  margin-left: 0.75rem;
+  resize: none;
 	margin-bottom: 1rem;
+
 }
 
 .card-container {
@@ -73,6 +94,7 @@ form {
     font-family: 'Permanent Marker', cursive;
 }
 
+
 .card-content {
 	align-self:center;
 }
@@ -88,12 +110,20 @@ form {
 
   border-width: 0;
   outline: none;
-  border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 0.35rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
 
   background-color: #f7d736;
 
   transition: background-color 0.3s;
+
+  font-size: 0.85rem;
+  /*font-weight: bold;*/
+  border: none;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-top: -0.65rem;
 }
 
 .btn > * {
