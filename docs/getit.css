@@ -32,13 +32,13 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-content: center;
-	box-shadow: 0 1px 24px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 1px 24px rgba(0, 0, 0, 0.75);
 	margin-bottom: 1rem;
 }
 
 .logo {
 	width: 5%;
-	margin: 1rem;
+	margin: 0.75rem;
 }
 
 .subtitle { 
@@ -51,6 +51,7 @@ body {
 form {
 	display: flex;
 	flex-direction: column;
+  align-self: center;
 	width: 33%;
   margin-right: auto;
 	margin-left: auto;
@@ -83,9 +84,8 @@ form {
 .card-container {
 	display: flex;
 	justify-content: space-around;
-  flex-basis: auto;
 	flex-wrap: wrap;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 3rem;
   margin-right: 4rem;
   margin-left: 4rem;
@@ -98,21 +98,21 @@ form {
 	justify-content: space-around;
 	width: 25%;
   height: auto;
-	min-height: 9rem;
+	min-height: 8rem;
   max-width: 15rem;
 	padding: 1rem;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
   margin-right: 0.15rem;
   margin-left: 0.15rem;
-  border-radius: 0.45rem;
-  box-shadow: 2px 5px 5px rgb(0, 0, 0, 0.3);
+  border-radius: 0.35rem;
+  box-shadow: 0 7px 12px rgba(0, 0, 0, 0.4), 0px 0px 10px rgb(0, 0, 0, 0.05) inset;
 }
 
 .card-title {
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-top: -0.75rem;
 }
 
@@ -202,19 +202,19 @@ form {
 .card-rotation-14 {background-color: #fae890}
 .card-rotation-15 {background-color: #abe9c1}
 
-.card-rotation-1  {transform: rotate(3deg);}
-.card-rotation-2  {transform: rotate(5deg);}
-.card-rotation-3  {transform: rotate(7deg);}
-.card-rotation-4  {transform: rotate(-3deg);}
-.card-rotation-5  {transform: rotate(-5deg);}
-.card-rotation-6  {transform: rotate(-7deg);}
+.card-rotation-1  {transform: rotate(2deg);}
+.card-rotation-2  {transform: rotate(4deg);}
+.card-rotation-3  {transform: rotate(6deg);}
+.card-rotation-4  {transform: rotate(-2deg);}
+.card-rotation-5  {transform: rotate(-4deg);}
+.card-rotation-6  {transform: rotate(-6deg);}
 
 .card-rotation-7  {transform: rotate(2deg);}
-.card-rotation-8  {transform: rotate(3deg);}
-.card-rotation-9  {transform: rotate(4deg);}
+.card-rotation-8  {transform: rotate(4deg);}
+.card-rotation-9  {transform: rotate(6deg);}
 .card-rotation-10 {transform: rotate(-2deg);}
-.card-rotation-11 {transform: rotate(-3deg);}
-.card-rotation-12 {transform: rotate(-4deg);}
+.card-rotation-11 {transform: rotate(-4deg);}
+.card-rotation-12 {transform: rotate(-6deg);}
 
 .card-rotation-13 {transform: rotate(2deg);}
 .card-rotation-15 {transform: rotate(4deg);}
