@@ -32,10 +32,13 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-content: center;
+	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.6);
+	margin-bottom: 1.5rem;
 }
 
 .logo {
-	width: 10%;
+	width: 5%;
+	margin: 0.65rem;
 }
 
 .subtitle { align-self: center;}
@@ -65,7 +68,7 @@ form {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+ .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -113,4 +116,4 @@ form {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
