@@ -49,26 +49,38 @@ form {
 	flex-direction: column;
 	width: 50%;
 	margin: auto;
+	margin-bottom: 1rem;
 }
 
 .card-container {
 	display: flex;
+	justify-content: space-around;
 	flex-wrap: wrap;
+
 }
 
 .card {
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
 	width: 15%;
 	background-color: blue;
-	margin: auto;
+	margin-bottom: 1rem;
+	min-height: 7rem;	
+	padding: 0.5rem;
 }
 
+.card-title {
+    font-family: 'Permanent Marker', cursive;
+}
 
-
-
+.card-content {
+	align-self:center;
+}
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
- .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
