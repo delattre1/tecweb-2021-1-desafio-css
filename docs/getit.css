@@ -66,16 +66,22 @@ form {
 	width: 15%;
 	margin-bottom: 1rem;
 	min-height: 7rem;	
-	padding: 0.5rem;
+	padding: 0.7rem;
+  border-radius: 0.45rem;
+  box-shadow: 2px 5px 5px rgb(0, 0, 0, 0.3);
 }
 
 .card-title {
     font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .card-content {
+  font-family: 'Permanent Marker', cursive;
+  color:#4c4c4c ;
 	align-self:center;
-}
+} 
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
