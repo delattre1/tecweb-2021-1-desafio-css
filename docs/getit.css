@@ -79,6 +79,8 @@ form {
   resize: none;
 	margin-bottom: 0.1rem;
 
+}
+
 .card-container {
 	display: flex;
 	justify-content: space-around;
