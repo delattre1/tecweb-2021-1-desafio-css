@@ -32,13 +32,13 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-content: center;
-	box-shadow: 0 1px 24px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 1px 24px rgba(0, 0, 0, 0.75);
 	margin-bottom: 1rem;
 }
 
 .logo {
 	width: 5%;
-	margin: 1rem;
+	margin: 0.75rem;
 }
 
 .subtitle { 
@@ -51,6 +51,7 @@ body {
 form {
 	display: flex;
 	flex-direction: column;
+  align-self: center;
 	width: 33%;
   margin-right: auto;
 	margin-left: auto;
@@ -77,8 +78,6 @@ form {
   margin-left: 0.75rem;
   resize: none;
 	margin-bottom: 0.1rem;
-
-}
 
 .card-container {
 	display: flex;
