@@ -32,24 +32,31 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-content: center;
-	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.6);
-	margin-bottom: 1.5rem;
+	box-shadow: 0 1px 24px rgba(0, 0, 0, 0.6);
+	margin-bottom: 1rem;
 }
 
 .logo {
 	width: 5%;
-	margin: 0.65rem;
+	margin: 1rem;
 }
 
-.subtitle { align-self: center;}
+.subtitle { 
+  align-self: center;
+  margin-left: 0.5rem;
+  font-size: 1.25rem;
+}
 
 
 form {
 	display: flex;
 	flex-direction: column;
 	width: 33%;
-	margin: auto;
-  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.6);
+  margin-right: auto;
+	margin-left: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 7px 12px rgba(0, 0, 0, 0.4);
   margin-bottom: 1.5rem;
   border-radius: 0.35rem;
 }
@@ -69,25 +76,35 @@ form {
   margin-top: 0.75rem;
   margin-left: 0.75rem;
   resize: none;
-	margin-bottom: 1rem;
+	margin-bottom: 0.1rem;
 
 }
 
 .card-container {
 	display: flex;
 	justify-content: space-around;
+  flex-basis: auto;
 	flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
 
 }
 
 .card {
 	display: flex;
-	flex-direction:column;
+	flex-direction: column;
 	justify-content: space-around;
-	width: 15%;
-	margin-bottom: 1rem;
-	min-height: 7rem;	
-	padding: 0.7rem;
+	width: 25%;
+  height: auto;
+	min-height: 9rem;
+  max-width: 15rem;
+	padding: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  margin-right: 0.15rem;
+  margin-left: 0.15rem;
   border-radius: 0.45rem;
   box-shadow: 2px 5px 5px rgb(0, 0, 0, 0.3);
 }
@@ -95,12 +112,13 @@ form {
 .card-title {
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
+    margin-top: -0.75rem;
 }
-
 
 .card-content {
   font-family: 'Permanent Marker', cursive;
+  font-size: 1.2rem;
   color:#4c4c4c ;
 	align-self:center;
 } 
@@ -112,18 +130,20 @@ form {
   display: block;
   padding: 10px 15px;
 
+  height: 2.5rem;
+
   overflow: hidden;
 
   border-width: 0;
   outline: none;
-  border-radius: 0.35rem;
+  border-radius: 0.15rem;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
 
   background-color: #f7d736;
 
   transition: background-color 0.3s;
 
-  font-size: 0.85rem;
+  font-size: 1rem;
   /*font-weight: bold;*/
   border: none;
   margin-right: 0.75rem;
@@ -182,23 +202,23 @@ form {
 .card-rotation-14 {background-color: #fae890}
 .card-rotation-15 {background-color: #abe9c1}
 
-.card-rotation-1  {transform: rotate(1deg);}
-.card-rotation-2  {transform: rotate(2deg);}
-.card-rotation-3  {transform: rotate(3deg);}
-.card-rotation-4  {transform: rotate(-1deg);}
-.card-rotation-5  {transform: rotate(-2deg);}
-.card-rotation-6  {transform: rotate(-3deg);}
+.card-rotation-1  {transform: rotate(3deg);}
+.card-rotation-2  {transform: rotate(5deg);}
+.card-rotation-3  {transform: rotate(7deg);}
+.card-rotation-4  {transform: rotate(-3deg);}
+.card-rotation-5  {transform: rotate(-5deg);}
+.card-rotation-6  {transform: rotate(-7deg);}
 
-.card-rotation-7  {transform: rotate(1deg);}
-.card-rotation-8  {transform: rotate(2deg);}
-.card-rotation-9  {transform: rotate(3deg);}
-.card-rotation-10 {transform: rotate(-1deg);}
-.card-rotation-11 {transform: rotate(-2deg);}
-.card-rotation-12 {transform: rotate(-3deg);}
+.card-rotation-7  {transform: rotate(2deg);}
+.card-rotation-8  {transform: rotate(3deg);}
+.card-rotation-9  {transform: rotate(4deg);}
+.card-rotation-10 {transform: rotate(-2deg);}
+.card-rotation-11 {transform: rotate(-3deg);}
+.card-rotation-12 {transform: rotate(-4deg);}
 
-.card-rotation-13 {transform: rotate(1deg);}
-.card-rotation-15 {transform: rotate(2deg);}
-.card-rotation-17 {transform: rotate(3deg);}
-.card-rotation-19 {transform: rotate(-1deg);}
-.card-rotation-20 {transform: rotate(-2deg);}
-.card-rotation-21 {transform: rotate(-3deg);}
+.card-rotation-13 {transform: rotate(2deg);}
+.card-rotation-15 {transform: rotate(4deg);}
+.card-rotation-17 {transform: rotate(6deg);}
+.card-rotation-19 {transform: rotate(-2deg);}
+.card-rotation-20 {transform: rotate(-4deg);}
+.card-rotation-21 {transform: rotate(-6deg);}
