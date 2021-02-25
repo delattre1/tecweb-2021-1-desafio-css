@@ -64,7 +64,6 @@ form {
 	flex-direction:column;
 	justify-content: space-around;
 	width: 15%;
-	background-color: blue;
 	margin-bottom: 1rem;
 	min-height: 7rem;	
 	padding: 0.5rem;
@@ -129,3 +128,41 @@ form {
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 }
+
+
+.card-rotation-1  {background-color: #ead3a7}
+.card-rotation-2  {background-color: #9de0f5}
+.card-rotation-3  {background-color: #ef89ba}
+.card-rotation-4  {background-color: #fae890}
+.card-rotation-5  {background-color: #abe9c1}
+.card-rotation-6  {background-color: #ead3a7}
+.card-rotation-7  {background-color: #9de0f5}
+.card-rotation-8  {background-color: #ef89ba}
+.card-rotation-9  {background-color: #fae890}
+.card-rotation-10 {background-color: #abe9c1}
+.card-rotation-11 {background-color: #ead3a7}
+.card-rotation-12 {background-color: #9de0f5}
+.card-rotation-13 {background-color: #ef89ba}
+.card-rotation-14 {background-color: #fae890}
+.card-rotation-15 {background-color: #abe9c1}
+
+.card-rotation-1  {transform: rotate(1deg);}
+.card-rotation-2  {transform: rotate(2deg);}
+.card-rotation-3  {transform: rotate(3deg);}
+.card-rotation-4  {transform: rotate(-1deg);}
+.card-rotation-5  {transform: rotate(-2deg);}
+.card-rotation-6  {transform: rotate(-3deg);}
+
+.card-rotation-7  {transform: rotate(1deg);}
+.card-rotation-8  {transform: rotate(2deg);}
+.card-rotation-9  {transform: rotate(3deg);}
+.card-rotation-10 {transform: rotate(-1deg);}
+.card-rotation-11 {transform: rotate(-2deg);}
+.card-rotation-12 {transform: rotate(-3deg);}
+
+.card-rotation-13 {transform: rotate(1deg);}
+.card-rotation-15 {transform: rotate(2deg);}
+.card-rotation-17 {transform: rotate(3deg);}
+.card-rotation-19 {transform: rotate(-1deg);}
+.card-rotation-20 {transform: rotate(-2deg);}
+.card-rotation-21 {transform: rotate(-3deg);}
