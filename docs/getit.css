@@ -32,13 +32,13 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-content: center;
-  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.6);
-  margin-bottom: 1.5rem;
+	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.6);
+	margin-bottom: 1.5rem;
 }
 
 .logo {
 	width: 5%;
-  margin: 0.65rem;
+	margin: 0.65rem;
 }
 
 .subtitle { align-self: center;}
