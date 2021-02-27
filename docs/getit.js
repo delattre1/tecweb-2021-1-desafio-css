@@ -28,6 +28,3 @@ document.addEventListener("DOMContentLoaded", function () {
     )} card-rotation-${getRandomInt(1, 11)}`;
   }
 });
-
-
-cvucononsole.log('ois');
